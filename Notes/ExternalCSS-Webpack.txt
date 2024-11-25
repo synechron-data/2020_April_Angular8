@@ -1,0 +1,49 @@
+From node_modules
+
+dev
+
+	css
+		style-loader
+		css-loader
+
+	scss
+		style-loader
+		css-loader
+		postcss-loader
+		sass-loader
+
+prod
+	css
+		MiniCssExtractPlugin.loader
+		css-loader
+
+	scss
+		MiniCssExtractPlugin.loader
+		css-loader
+		postcss-loader
+		sass-loader
+
+From Outside node_modules
+
+dev
+
+	css
+		style-loader
+		raw-loader
+
+	scss
+		style-loader
+		raw-loader
+		postcss-loader
+		sass-loader
+
+prod
+	css
+		MiniCssExtractPlugin.loader
+		raw-loader
+
+	scss
+		MiniCssExtractPlugin.loader
+		raw-loader
+		postcss-loader
+		sass-loader
